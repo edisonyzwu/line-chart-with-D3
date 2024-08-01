@@ -1,0 +1,20 @@
+﻿route_id_no,route_id,direction,stop_name,stop_id,stop_sequence,shape_dist_traveled_miles,elevation_in_m,elevation
+67,67 Bernal Heights,Inbound,Ellsworth St & Crescent Ave,14568,1,0,32.39968,106.2981661
+67,67 Bernal Heights,Inbound,Folsom St & Crescent Ave,14689,2,0.087949,18.8035,61.69127494
+67,67 Bernal Heights,Inbound,Folsom St & Ogden St,14695,3,0.16458,35.35429,115.9917688
+67,67 Bernal Heights,Inbound,Folsom St & Tompkins St,14700,4,0.243008,50.15197,164.5405893
+67,67 Bernal Heights,Inbound,Folsom St & Cortland Ave,14687,5,0.360422,60.92484,199.8846521
+67,67 Bernal Heights,Inbound,Cortland Ave & Prentiss St,14159,6,0.4449,47.3624,155.3884564
+67,67 Bernal Heights,Inbound,Nevada St & Cortland Ave,15769,7,0.510345,39.52604,129.6786131
+67,67 Bernal Heights,Inbound,Bernal Heights Blvd & Powhattan Ave,13691,8,0.63424,58.93053,193.34164
+67,67 Bernal Heights,Inbound,Bradford St & Bernal Heights Blvd,13708,9,0.714025,68.41651,224.4636227
+67,67 Bernal Heights,Inbound,Bradford St & Esmeralda Ave,13710,10,0.77244,76.18324,249.9450211
+67,67 Bernal Heights,Inbound,Ripley St & Alabama St,16208,11,0.910761,43.65443,143.2232001
+67,67 Bernal Heights,Inbound,Ripley St & Folsom St,16210,12,1.058267,64.80775,212.6238585
+67,67 Bernal Heights,Inbound,Folsom St & Stoneman St,14698,13,1.147327,43.34991,142.2241187
+67,67 Bernal Heights,Inbound,Folsom St & Precita Ave,14697,14,1.270331,22.74565,74.62483835
+67,67 Bernal Heights,Inbound,Folsom St & Cesar Chavez St,17552,15,1.366088,12.88038,42.25846592
+67,67 Bernal Heights,Inbound,Folsom St & 25th St,14681,16,1.528609,18.58911,60.98789565
+67,67 Bernal Heights,Inbound,24th St & Folsom St,13469,17,1.652305,18.07512,59.3015767
+67,67 Bernal Heights,Inbound,24th St & South Van Ness Ave,13483,18,1.75711,20.07375,65.85876195
+67,67 Bernal Heights,Inbound,24th St & Mission St,13476,19,1.875819,22.36895,73.38894592

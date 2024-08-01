@@ -1,0 +1,39 @@
+body{
+  background-color: #f7f7f7;
+}
+
+#chart{
+  margin: 5px auto;
+  width: 1000px;
+  position: relative;
+}
+
+#tooltip {
+  border: 1px solid #ccc;
+  position: absolute;
+  padding: 10px;
+  background-color: #fff;
+  display: none;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.stop-name {
+  font-weight: bold;
+}
+
+h1, p{
+  margin: 10px auto;
+  position: relative;
+  width: 950px;
+  font-family: 'Helvetica', 'Arial', 'Roboto';
+}
+
+#p {
+  font-weight: 300;
+}
+
+#source {
+  color: rgb(164, 162, 162);
+  font-size: 0.8em
+}

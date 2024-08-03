@@ -77,7 +77,7 @@ async function draw() {
       tooltip.style('display', 'none')
     })
 
-  // Draw Axes
+  // Draw Axes ⭐️
   const xAxis = d3.axisBottom(xScale)
       .tickFormat((d, i, nodes) => {
       if (i === nodes.length - 1) {
@@ -106,7 +106,7 @@ async function draw() {
     .call(yAxis)
     .select('.domain').remove()
 
-  // Add tick Line
+  // Add tick Line ⭐️
   ctr.selectAll('.tick-line')
     .data(yScale.ticks(5))
     .join('line')
@@ -121,7 +121,7 @@ async function draw() {
 
 const annotationGroup = ctr.append('g');
 
-// Draw Arrow
+// Draw Arrow 
 annotationGroup.append('line')
   .attr('x1', xScale(0.63))  
   .attr('y1', yScale(100))  
@@ -131,17 +131,14 @@ annotationGroup.append('line')
   .attr('stroke-width', 1)   
   .attr('marker-end', 'url(#arrowhead)'); 
 
-svg.append('defs')
-  .append('marker')
+  //Arrowhead⭐️⭐️
+svg.append('marker')
   .attr('id', 'arrowhead')
   .attr('viewBox', '-0 -5 10 10')
-  .attr('refX', 5)
-  .attr('refY', 0)
   .attr('orient', 'auto')
   .attr('markerWidth', 8)
-  .attr('markerHeight', 8)
-  .attr('xoverflow', 'visible')
-  .append('svg:path')
+  .attr('markerHeight', 18)
+  .append('path')
   .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
   .attr('fill', 'black')
   .style('stroke', 'none');
@@ -151,9 +148,9 @@ annotationGroup.append('text')
   .attr('x', xScale(0.48))  
   .attr('y', yScale(86))  
   .attr('text-anchor', 'start') 
-  .attr('font-size', '0.9em')  
+  .attr('font-size', '0.9rem')  
   .attr('font-weight', '300')
-  .attr('font-family', 'Helvetica', 'Arial', 'Roboto')
+  .attr('font-family', 'Helvetica', 'Arial', 'Roboto') // ⭐️
   .html(`<tspan x="${xScale(0.48)}" dy="0em">This segment is the</tspan><br>
   <tspan x="${xScale(0.48)}" dy="1.2em">steepest a bus</tspan><br>
   <tspan x="${xScale(0.48)}" dy="1.2em">climbs in S.F.</tspan>`);

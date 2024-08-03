@@ -1,5 +1,7 @@
 body{
   background-color: #f7f7f7;
+  font-family: 'Helvetica', 'Arial', 'Roboto';
+  font-size: 16px;
 }
 
 #chart{
@@ -26,7 +28,6 @@ h1, p{
   margin: 10px auto;
   position: relative;
   width: 950px;
-  font-family: 'Helvetica', 'Arial', 'Roboto';
 }
 
 #p {

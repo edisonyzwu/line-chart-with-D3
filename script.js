@@ -77,14 +77,15 @@ async function draw() {
       tooltip.style('display', 'none')
     })
 
-  // Draw Axes ⭐️
+  // Draw Axes 
   const xAxis = d3.axisBottom(xScale)
       .tickFormat((d, i, nodes) => {
       if (i === nodes.length - 1) {
         return `${d}mi`;
       }
       return d;
-    });
+    })
+      .tickSizeOuter(0);
     
   const xAxisGroup = ctr.append('g')
     .call(xAxis)
@@ -131,7 +132,7 @@ annotationGroup.append('line')
   .attr('stroke-width', 1)   
   .attr('marker-end', 'url(#arrowhead)'); 
 
-  //Arrowhead⭐️⭐️
+  //Arrowhead
 svg.append('marker')
   .attr('id', 'arrowhead')
   .attr('viewBox', '-0 -5 10 10')

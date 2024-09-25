@@ -1,10 +1,19 @@
-body{
-  background-color: #f7f7f7;
-  font-family: 'Helvetica', 'Arial', 'Roboto';
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7b0;
+  font-family: "Helvetica", "Arial", "Roboto";
   font-size: 16px;
 }
 
-#chart{
+.container {
+  text-align: left;
+}
+
+#chart {
   margin: 5px auto;
   width: 1000px;
   position: relative;
@@ -24,7 +33,8 @@ body{
   font-weight: bold;
 }
 
-h1, p{
+h1,
+p {
   margin: 10px auto;
   position: relative;
   width: 950px;
@@ -36,5 +46,6 @@ h1, p{
 
 #source {
   color: rgb(164, 162, 162);
-  font-size: 0.8em
+  font-size: 0.8em;
+  font-weight: 100;
 }

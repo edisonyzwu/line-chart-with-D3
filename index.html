@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elevation profile of the inbound 67 Bernal Heights</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-  <h1>Elevation profile of the inbound 67 Bernal Heights</h1>
-  <p id="subtitle">Bus stop elevation versus distance traveled along route</p>
-  <div id="chart">
-    <div id="tooltip">
-      <div class="stop-name"></div>
-      <div class="elevation">
-        Elevation: <span></span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevation profile of the inbound 67 Bernal Heights</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Elevation profile of the inbound 67 Bernal Heights</h1>
+      <p id="subtitle">Bus stop elevation versus distance traveled along route</p>
+      <div id="chart">
+        <div id="tooltip">
+          <div class="stop-name"></div>
+          <div class="elevation">
+            Elevation:
+            <span></span>
+          </div>
+        </div>
       </div>
+      <p id="source">Source: San Francisco Metropolitan Transit Agency</p>
     </div>
-  </div>
-  <p id="source">Source: San Francisco Metropolitan Transit Agency</p>
-
-  <script src="https://d3js.org/d3.v6.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
